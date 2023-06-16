@@ -345,7 +345,7 @@ public class DeleteProductForm extends javax.swing.JFrame {
         jTextField7.setText("");
         jTextField8.setText("");
 
-        int removeMore = JOptionPane.showConfirmDialog(this, "Do you want to remove more records?", "Remove More", JOptionPane.YES_NO_OPTION);
+        int removeMore = JOptionPane.showConfirmDialog(this, "Do you want to remove more products?", "Remove More", JOptionPane.YES_NO_OPTION);
         
         if (removeMore == JOptionPane.YES_OPTION) {
         jTextField2.setText("");
