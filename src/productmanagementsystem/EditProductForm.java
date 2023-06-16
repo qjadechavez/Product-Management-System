@@ -484,7 +484,7 @@ public class EditProductForm extends javax.swing.JFrame {
         jTextField7.setText("");
         jTextField8.setText("");
 
-        int removeMore = JOptionPane.showConfirmDialog(this, "Do you want to update more records?", "Update More", JOptionPane.YES_NO_OPTION);
+        int removeMore = JOptionPane.showConfirmDialog(this, "Do you want to update more products?", "Update More", JOptionPane.YES_NO_OPTION);
         if (removeMore == JOptionPane.YES_OPTION) {
             jTextField2.setEnabled(true);
             jTextField2.setEnabled(false);
